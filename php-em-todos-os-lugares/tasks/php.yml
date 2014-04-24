@@ -1,0 +1,7 @@
+---
+- name: php-1 | Install PHP Packages
+  apt: pkg={{ item }} state=latest
+  with_items: php_packages
+
+- name: php-2 | Start php http server
+  shell: nohup php -S 0.0.0.0:8000 -t /vagrant/public > /dev/null 2>&1 &

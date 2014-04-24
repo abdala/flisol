@@ -1,0 +1,10 @@
+---
+- hosts: all
+  sudo: true
+  vars:
+    server_name: "{{ ansible_eth1.ipv4.address }}"
+    sys_packages: ['curl', 'vim', 'ffmpeg', 'htop']
+    php_packages: ['php5-curl', 'php5-cli', 'php5-gd']
+  tasks:
+    - include: tasks/init.yml
+    - include: tasks/php.yml

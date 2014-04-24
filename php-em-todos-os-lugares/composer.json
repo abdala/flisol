@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Flisol\\": "src"
+        }
+    },
+    "require": {
+        "cboden/Ratchet": "0.3.*",
+        "php-ffmpeg/php-ffmpeg": "~0.4",
+        "willdurand/geocoder": "@stable",
+        "mrrio/shellwrap": "0.4.*",
+        "fabpot/goutte": "~1.0",
+        "imagine/imagine": "~0.5.0"
+    }
+}
