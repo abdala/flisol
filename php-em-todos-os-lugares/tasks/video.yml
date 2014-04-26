@@ -1,0 +1,4 @@
+---
+- name: video | Install Video Packages
+  apt: pkg={{ item }} state=latest
+  with_items: video_packages

@@ -1,2 +1,4 @@
 vendor/
 .vagrant
+public/ffmpeg/videos/generated/*
+public/imagine/images/generated/*

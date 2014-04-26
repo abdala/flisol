@@ -11,8 +11,7 @@ $image     = $imagine->open('/vagrant/public/imagine/images/source/1.jpg');
     
 $size        = $image->getSize();
 $wSize       = $watermark->getSize();    
-$bottomRight = new Imagine\Image\Point($size->getWidth() - $wSize->getWidth(), 
-                                       $size->getHeight() - $wSize->getHeight());
+$bottomRight = new Imagine\Image\Point(10, 10);
 
 $image->paste($watermark, $bottomRight)
       ->save('/vagrant/public/imagine/images/generated/1-watermark.jpg');
