@@ -1,12 +1,12 @@
-Este projeto foi criado utlizando Vagrant e Ansible.
+Este projeto foi criado utlizando Composer, Vagrant e Ansible.
 
-Baixe o Vagrant aqui: http://vagrantup.com/
+Instale:
 
-Baixo o ansible aqui: http://ansibleworks.com/
-
+Composer (https://getcomposer.org)
+Vagrant (http://vagrantup.com)
+Ansible (http://ansibleworks.com)
 
 Execute:
-
 ```
 composer install
 
