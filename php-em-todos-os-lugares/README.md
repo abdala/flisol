@@ -8,6 +8,9 @@ Baixo o ansible aqui: http://ansibleworks.com/
 Execute:
 
 ```
+composer install
+
 vagrant up
+```
 
 Seja feliz!
