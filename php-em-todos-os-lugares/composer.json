@@ -1,9 +1,4 @@
 {
-    "autoload": {
-        "psr-4": {
-            "Flisol\\": "src"
-        }
-    },
     "require": {
         "cboden/Ratchet": "0.3.*",
         "php-ffmpeg/php-ffmpeg": "~0.4",
